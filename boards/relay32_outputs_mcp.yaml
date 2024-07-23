@@ -1,15 +1,6 @@
 output:
 
   - platform: gpio
-    id: out_01
-    pin:
-      mcp23xxx: mcp_left
-      number: 0
-      mode:
-        output: true
-      inverted: false
-
-  - platform: gpio
     id: out_02
     pin:
       mcp23xxx: mcp_left
