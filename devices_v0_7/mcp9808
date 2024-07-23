@@ -1,7 +1,0 @@
-#i2c address: 0x18 output mcp9808 temp
-sensor:
-  
-  - platform: mcp9808
-    id: boneIO_temp
-    name: 'MCP9808 Temperature'
-    update_interval: 30s
