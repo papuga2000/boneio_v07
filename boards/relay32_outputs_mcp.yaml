@@ -1,4 +1,5 @@
 output:
+
   - platform: gpio
     id: out_01
     pin:
