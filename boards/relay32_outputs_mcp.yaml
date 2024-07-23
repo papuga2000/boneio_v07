@@ -1,7 +1,7 @@
 output:
 
   - platform: gpio
-    id: out_022
+    id: out_01
     pin:
       mcp23xxx: mcp_left
       number: 0
