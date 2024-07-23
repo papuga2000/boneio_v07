@@ -3,7 +3,7 @@ output:
     id: out_01
     pin:
       mcp23017: mcp_left
-      number: 0
+      number: 1
       mode:
         output: true
       inverted: false
