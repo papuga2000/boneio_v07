@@ -1,0 +1,22 @@
+######################
+### MODBUS SECTION ###
+######################
+# UNCOMMENT BELOW TO USE MODBUS
+# uart:
+#   id: uart_pin14_15
+#   rx_pin: GPIO14
+#   tx_pin: GPIO15
+#   baud_rate: 9600
+#   stop_bits: 1
+
+# modbus:
+#   send_wait_time: 200ms
+#   uart_id: uart_pin14_15
+#   id: boneio_modbus
+
+# modbus_controller:
+#   - id: YOURDEVICE ID
+#     address: 0x09
+#     modbus_id: mod_bus
+#     setup_priority: -10
+#     update_interval: 60s
