@@ -115,39 +115,39 @@ light:
     id: light_23
   
 switch:
-  - platform: switch
+  - platform: output
     name: 'Switch 24'
     output: out_24
     id: switch_24
-  - platform: switch
+  - platform: output
     name: 'Switch 25'
     output: out_25
     id: switch_25
-  - platform: switch
+  - platform: output
     name: 'Switch 26'
     output: out_26
     id: switch_26
-  - platform: switch
+  - platform: output
     name: 'Switch 27'
     output: out_27
     id: switch_27
-  - platform: switch
+  - platform: output
     name: 'Switch 28'
     output: out_28
     id: switch_28
-  - platform: switch
+  - platform: output
     name: 'Switch 29'
     output: out_29
     id: switch_29
-  - platform: switch
+  - platform: output
     name: 'Switch 30'
     output: out_30
     id: switch_30
-  - platform: switch
+  - platform: output
     name: 'Switch 31'
     output: out_31
     id: switch_31
-  - platform: switch
+  - platform: output
     name: 'Switch 32'
     output: out_32
     id: switch_32
