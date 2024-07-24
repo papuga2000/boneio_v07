@@ -44,7 +44,7 @@ cover:
       - switch.turn_off: cover_open_03_out05
       - switch.turn_off: cover_close_03_out06
 
-switch:
+light:
   - platform: output
     name: 'Light 07'
     output: out_07
