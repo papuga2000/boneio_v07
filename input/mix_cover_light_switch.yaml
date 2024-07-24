@@ -482,7 +482,7 @@ binary_sensor:
       inverted: true
     on_press:
       then:
-        - switch.toggle: light_24
+        - switch.toggle: switch_24
 
   - platform: gpio
     name: 'IN_25'
