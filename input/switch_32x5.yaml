@@ -450,6 +450,9 @@ binary_sensor:
       mode:
         input: true
       inverted: true
+    on_press:
+      then:
+        - switch.toggle: switch_25
 
   - platform: gpio
     name: 'IN_26'
@@ -460,6 +463,9 @@ binary_sensor:
       mode:
         input: true
       inverted: true
+    on_press:
+      then:
+        - switch.toggle: switch_26
 
   - platform: gpio
     name: 'IN_27'
@@ -470,6 +476,9 @@ binary_sensor:
       mode:
         input: true
       inverted: true
+    on_press:
+      then:
+        - switch.toggle: switch_27
 
   - platform: gpio
     name: 'IN_28'
@@ -480,6 +489,9 @@ binary_sensor:
       mode:
         input: true
       inverted: true
+    on_press:
+      then:
+        - switch.toggle: switch_28
 
   - platform: gpio
     name: 'IN_29'
@@ -490,6 +502,9 @@ binary_sensor:
       mode:
         input: true
       inverted: true
+    on_press:
+      then:
+        - switch.toggle: switch_29
 
   - platform: gpio
     name: 'IN_30'
@@ -500,6 +515,9 @@ binary_sensor:
       mode:
         input: true
       inverted: true
+    on_press:
+      then:
+        - switch.toggle: switch_30
 
   - platform: gpio
     name: 'IN_31'
@@ -510,6 +528,9 @@ binary_sensor:
       mode:
         input: true
       inverted: true
+    on_press:
+      then:
+        - switch.toggle: switch_31
 
   - platform: gpio
     name: 'IN_32'
@@ -520,6 +541,9 @@ binary_sensor:
       mode:
         input: true
       inverted: true
+    on_press:
+      then:
+        - switch.toggle: switch_32
 
   - platform: gpio
     name: 'IN_33'
