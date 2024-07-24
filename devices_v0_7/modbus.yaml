@@ -12,7 +12,7 @@ uart:
   data_bits: 8
 
 modbus:
-  send_wait_time: 10ms
+  send_wait_time: 200ms
   uart_id: uart_pin14_15
   id: boneio_modbus
 
