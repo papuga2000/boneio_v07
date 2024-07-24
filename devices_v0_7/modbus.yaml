@@ -17,6 +17,6 @@
  modbus_controller:
    - id: licznik_sdm630
      address: 0x09
-     modbus_id: mod_bus
+     modbus_id: boneio_modbus
      setup_priority: -10
      update_interval: 60s
