@@ -15,7 +15,7 @@
    id: boneio_modbus
 
  modbus_controller:
-   - id: YOURDEVICE ID
+   - id: licznik_sdm630
      address: 0x09
      modbus_id: mod_bus
      setup_priority: -10
