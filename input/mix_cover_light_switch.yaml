@@ -114,7 +114,7 @@ light:
     output: out_23
     id: light_23
   
-  switch:
+switch:
   - platform: switch
     name: 'Switch 24'
     output: out_24
