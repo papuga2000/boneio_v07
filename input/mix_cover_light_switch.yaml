@@ -482,7 +482,7 @@ binary_sensor:
       inverted: true
     on_press:
       then:
-        - light.toggle: light_24
+        - switch.toggle: light_24
 
   - platform: gpio
     name: 'IN_25'
@@ -495,7 +495,7 @@ binary_sensor:
       inverted: true
     on_press:
       then:
-        - light.toggle: switch_25
+        - switch.toggle: switch_25
 
   - platform: gpio
     name: 'IN_26'
@@ -508,7 +508,7 @@ binary_sensor:
       inverted: true
     on_press:
       then:
-        - light.toggle: switch_26
+        - switch.toggle: switch_26
 
   - platform: gpio
     name: 'IN_27'
@@ -521,7 +521,7 @@ binary_sensor:
       inverted: true
     on_press:
       then:
-        - light.toggle: switch_27
+        - switch.toggle: switch_27
 
   - platform: gpio
     name: 'IN_28'
@@ -534,7 +534,7 @@ binary_sensor:
       inverted: true
     on_press:
       then:
-        - light.toggle: switch_28
+        - switch.toggle: switch_28
 
   - platform: gpio
     name: 'IN_29'
@@ -547,7 +547,7 @@ binary_sensor:
       inverted: true
     on_press:
       then:
-        - light.toggle: switch_29
+        - switch.toggle: switch_29
 
   - platform: gpio
     name: 'IN_30'
@@ -560,7 +560,7 @@ binary_sensor:
       inverted: true
     on_press:
       then:
-        - light.toggle: switch_30
+        - switch.toggle: switch_30
 
   - platform: gpio
     name: 'IN_31'
@@ -573,7 +573,7 @@ binary_sensor:
       inverted: true
     on_press:
       then:
-        - light.toggle: switch_31
+        - switch.toggle: switch_31
 
   - platform: gpio
     name: 'IN_32'
@@ -586,7 +586,7 @@ binary_sensor:
       inverted: true
     on_press:
       then:
-        - light.toggle: switch_32
+        - switch.toggle: switch_32
 
   - platform: gpio
     name: 'IN_33'
