@@ -45,107 +45,107 @@ cover:
       - switch.turn_off: cover_close_03_out06
 
 light:
-  - platform: output
+  - platform: binary
     name: 'Light 07'
     output: out_07
     id: light_07
-  - platform: output
+  - platform: binary
     name: 'Light 08'
     output: out_08
     id: light_08
-  - platform: output
+  - platform: binary
     name: 'Light 09'
     output: out_09
     id: light_09
-  - platform: output
+  - platform: binary
     name: 'Light 10'
     output: out_10
     id: light_10
-  - platform: output
+  - platform: binary
     name: 'Light 11'
     output: out_11
     id: light_11
-  - platform: output
+  - platform: binary
     name: 'Light 12'
     output: out_12
     id: light_12
-  - platform: output
+  - platform: binary
     name: 'Light 13'
     output: out_13
     id: light_13
-  - platform: output
+  - platform: binary
     name: 'Light 14'
     output: out_14
     id: light_14
-  - platform: output
+  - platform: binary
     name: 'Light 15'
     output: out_15
     id: light_15
-  - platform: output
+  - platform: binary
     name: 'Light 16'
     output: out_16
     id: light_16
-  - platform: output
+  - platform: binary
     name: 'Light 17'
     output: out_17
     id: light_17
-  - platform: output
+  - platform: binary
     name: 'Light 18'
     output: out_18
     id: light_18
-  - platform: output
+  - platform: binary
     name: 'Light 19'
     output: out_19
     id: light_19
-  - platform: output
+  - platform: binary
     name: 'Light 20'
     output: out_20
     id: light_20
-  - platform: output
+  - platform: binary
     name: 'Light 21'
     output: out_21
     id: light_21
-  - platform: output
+  - platform: binary
     name: 'Light 22'
     output: out_22
     id: light_22
-  - platform: output
+  - platform: binary
     name: 'Light 23'
     output: out_23
     id: light_23
-  - platform: output
+  - platform: binary
     name: 'Light 24'
     output: out_24
     id: light_24
-  - platform: output
+  - platform: binary
     name: 'Light 25'
     output: out_25
     id: light_25
-  - platform: output
+  - platform: binary
     name: 'Light 26'
     output: out_26
     id: light_26
-  - platform: output
+  - platform: binary
     name: 'Light 27'
     output: out_27
     id: light_27
-  - platform: output
+  - platform: binary
     name: 'Light 28'
     output: out_28
     id: light_28
-  - platform: output
+  - platform: binary
     name: 'Light 29'
     output: out_29
     id: light_29
-  - platform: output
+  - platform: binary
     name: 'Light 30'
     output: out_30
     id: light_30
-  - platform: output
+  - platform: binary
     name: 'Light 31'
     output: out_31
     id: light_31
-  - platform: output
+  - platform: binary
     name: 'Light 32'
     output: out_32
     id: light_32
