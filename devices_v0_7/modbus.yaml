@@ -15,8 +15,65 @@
    id: boneio_modbus
 
  modbus_controller:
-   - id: licznik_sdm630
-     address: 0x09
+   - id: pt100
+     address: 1
      modbus_id: boneio_modbus
      setup_priority: -10
      update_interval: 60s
+
+sensor:
+  - platform: modbus_controller #Ua
+    modbus_controller_id: pt100
+    id: pt100_kuchnia
+    name: "Temperatura kuchnia"
+    state_class: measurement
+    device_class: temperature
+    register_type: holding
+    address: 0x0
+    unit_of_measurement: "C"
+    value_type: S_WORD
+    accuracy_decimals: 2
+    filters:
+      - multiply: 0.1
+      
+  - platform: modbus_controller #Ua
+    modbus_controller_id: pt100
+    id: pt100_goscinny
+    name: "Temperatura goscinny"
+    state_class: measurement
+    device_class: temperature
+    register_type: holding
+    address: 0x1
+    unit_of_measurement: "C"
+    value_type: S_WORD
+    accuracy_decimals: 2
+    filters:
+      - multiply: 0.1
+
+  - platform: modbus_controller #Ua
+    modbus_controller_id: pt100
+    id: pt100_sypialnia
+    name: "Temperatura sypialnia"
+    state_class: measurement
+    device_class: temperature
+    register_type: holding
+    address: 0x2
+    unit_of_measurement: "C"
+    value_type: S_WORD
+    accuracy_decimals: 2
+    filters:
+      - multiply: 0.1
+      
+  - platform: modbus_controller #Ua
+    modbus_controller_id: pt100
+    id: pt100_lazienka
+    name: "Temperatura lazienka"
+    state_class: measurement
+    device_class: temperature
+    register_type: holding
+    address: 0x3
+    unit_of_measurement: "C"
+    value_type: S_WORD
+    accuracy_decimals: 2
+    filters:
+      - multiply: 0.1
