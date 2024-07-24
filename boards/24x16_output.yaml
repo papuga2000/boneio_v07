@@ -1,10 +1,9 @@
 output:
-
   - platform: gpio
     id: out_01
     pin:
       mcp23xxx: mcp_left
-      number: 0
+      number: 8
       mode:
         output: true
       inverted: false
@@ -13,7 +12,7 @@ output:
     id: out_02
     pin:
       mcp23xxx: mcp_left
-      number: 1
+      number: 9
       mode:
         output: true
       inverted: false
@@ -22,7 +21,7 @@ output:
     id: out_03
     pin:
       mcp23xxx: mcp_left
-      number: 2
+      number: 10
       mode:
         output: true
       inverted: false
@@ -31,7 +30,7 @@ output:
     id: out_04
     pin:
       mcp23xxx: mcp_left
-      number: 3
+      number: 11
       mode:
         output: true
       inverted: false
@@ -40,7 +39,7 @@ output:
     id: out_05
     pin:
       mcp23xxx: mcp_left
-      number: 4
+      number: 12
       mode:
         output: true
       inverted: false
@@ -49,7 +48,7 @@ output:
     id: out_06
     pin:
       mcp23xxx: mcp_left
-      number: 5
+      number: 13
       mode:
         output: true
       inverted: false
@@ -58,7 +57,7 @@ output:
     id: out_07
     pin:
       mcp23xxx: mcp_left
-      number: 6
+      number: 14
       mode:
         output: true
       inverted: false
@@ -67,7 +66,7 @@ output:
     id: out_08
     pin:
       mcp23xxx: mcp_left
-      number: 7
+      number: 15
       mode:
         output: true
       inverted: false
@@ -76,7 +75,7 @@ output:
     id: out_09
     pin:
       mcp23xxx: mcp_right
-      number: 0
+      number: 8
       mode:
         output: true
       inverted: false
@@ -85,7 +84,7 @@ output:
     id: out_10
     pin:
       mcp23xxx: mcp_right
-      number: 1
+      number: 9
       mode:
         output: true
       inverted: false
@@ -94,7 +93,7 @@ output:
     id: out_11
     pin:
       mcp23xxx: mcp_right
-      number: 2
+      number: 10
       mode:
         output: true
       inverted: false
@@ -103,7 +102,7 @@ output:
     id: out_12
     pin:
       mcp23xxx: mcp_right
-      number: 3
+      number: 11
       mode:
         output: true
       inverted: false
@@ -111,8 +110,8 @@ output:
   - platform: gpio
     id: out_13
     pin:
-      mcp23xxx: mcp_right
-      number: 4
+      mcp23xxx: mcp_left
+      number: 7
       mode:
         output: true
       inverted: false
@@ -120,8 +119,8 @@ output:
   - platform: gpio
     id: out_14
     pin:
-      mcp23xxx: mcp_right
-      number: 5
+      mcp23xxx: mcp_left
+      number: 6
       mode:
         output: true
       inverted: false
@@ -129,8 +128,8 @@ output:
   - platform: gpio
     id: out_15
     pin:
-      mcp23xxx: mcp_right
-      number: 6
+      mcp23xxx: mcp_left
+      number: 5
       mode:
         output: true
       inverted: false
@@ -138,8 +137,8 @@ output:
   - platform: gpio
     id: out_16
     pin:
-      mcp23xxx: mcp_right
-      number: 7
+      mcp23xxx: mcp_left
+      number: 4
       mode:
         output: true
       inverted: false
@@ -148,7 +147,7 @@ output:
     id: out_17
     pin:
       mcp23xxx: mcp_left
-      number: 15
+      number: 3
       mode:
         output: true
       inverted: false
@@ -157,7 +156,7 @@ output:
     id: out_18
     pin:
       mcp23xxx: mcp_left
-      number: 14
+      number: 2
       mode:
         output: true
       inverted: false
@@ -166,7 +165,7 @@ output:
     id: out_19
     pin:
       mcp23xxx: mcp_left
-      number: 13
+      number: 1
       mode:
         output: true
       inverted: false
@@ -175,7 +174,7 @@ output:
     id: out_20
     pin:
       mcp23xxx: mcp_left
-      number: 12
+      number: 0
       mode:
         output: true
       inverted: false
@@ -183,59 +182,14 @@ output:
   - platform: gpio
     id: out_21
     pin:
-      mcp23xxx: mcp_left
-      number: 11
+      mcp23xxx: mcp_right
+      number: 12
       mode:
         output: true
       inverted: false
 
   - platform: gpio
     id: out_22
-    pin:
-      mcp23xxx: mcp_left
-      number: 10
-      mode:
-        output: true
-      inverted: false
-
-  - platform: gpio
-    id: out_23
-    pin:
-      mcp23xxx: mcp_left
-      number: 9
-      mode:
-        output: true
-      inverted: false
-
-  - platform: gpio
-    id: out_24
-    pin:
-      mcp23xxx: mcp_left
-      number: 8
-      mode:
-        output: true
-      inverted: false
-
-  - platform: gpio
-    id: out_25
-    pin:
-      mcp23xxx: mcp_right
-      number: 15
-      mode:
-        output: true
-      inverted: false
-
-  - platform: gpio
-    id: out_26
-    pin:
-      mcp23xxx: mcp_right
-      number: 14
-      mode:
-        output: true
-      inverted: false
-
-  - platform: gpio
-    id: out_27
     pin:
       mcp23xxx: mcp_right
       number: 13
@@ -244,46 +198,19 @@ output:
       inverted: false
 
   - platform: gpio
-    id: out_28
+    id: out_23
     pin:
       mcp23xxx: mcp_right
-      number: 12
+      number: 14
       mode:
         output: true
       inverted: false
 
   - platform: gpio
-    id: out_29
+    id: out_24
     pin:
       mcp23xxx: mcp_right
-      number: 11
-      mode:
-        output: true
-      inverted: false
-
-  - platform: gpio
-    id: out_30
-    pin:
-      mcp23xxx: mcp_right
-      number: 10
-      mode:
-        output: true
-      inverted: false
-
-  - platform: gpio
-    id: out_31
-    pin:
-      mcp23xxx: mcp_right
-      number: 9
-      mode:
-        output: true
-      inverted: false
-
-  - platform: gpio
-    id: out_32
-    pin:
-      mcp23xxx: mcp_right
-      number: 8
+      number: 15
       mode:
         output: true
       inverted: false
